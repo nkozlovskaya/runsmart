@@ -1,0 +1,50 @@
+.client{
+    padding: 103px 0 71px 0;
+
+    &__title{       
+        color: #0d0d0d;
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    &__review{
+        margin: 70px auto 100px auto;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    &__img {
+        width: 169px;
+        height: 169px;
+    }
+
+    &__descr{
+        margin-left: 60px;
+        padding-right: 62px;
+    }
+
+    &__name{
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: left;
+    }
+
+    &__run{
+        margin-top: 10px;
+        color: #646464;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: left;
+    }
+
+    &__text{
+        margin-top: 19px;
+        color: #0d0d0d;
+        font-size: 16px;
+        font-weight: 300;
+    }
+}
